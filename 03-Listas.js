@@ -33,11 +33,14 @@ const info = () => {
    /* Object.entries(datos).forEach(([key,value])=>{
     console.log(`${key} : ${value}`)
    }) */
-    for (const index in datos) {
+   /*  for (const index in datos) {
         const elementos = datos[index]
         for (const propiedad in elementos) {
           console.log(`${propiedad}=${elementos[propiedad]}`)
         }
-  }
+  } */
+ datos.map((data)=>{
+    console.log(`el nombre es ${data.nombre}`)
+ })
 }
 info();
