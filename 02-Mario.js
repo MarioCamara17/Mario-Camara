@@ -15,7 +15,7 @@ const A = [
   };
 */ 
 
-  //for of
+  //for of (Iteracion de arreglos)
 
   /*
 const datosArreglo = () => {
@@ -27,7 +27,7 @@ const datosArreglo = () => {
 }
   */
 
-  //for in
+  //for in (Iteracion de objetos)
 
   /*
 const datosArreglo = () => {
