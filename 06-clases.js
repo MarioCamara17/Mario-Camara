@@ -23,6 +23,6 @@ class persona{
 
 
 persona1 = new persona("Axl",18,"M","su casa")
-
-console.log(persona1.edad)
+persona1.nombre="Carlos"
+console.log(persona1)
 persona1.saludar()
