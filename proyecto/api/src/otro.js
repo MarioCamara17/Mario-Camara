@@ -1,9 +1,8 @@
-import React from 'react'
 
-function Otro() {
-  return (
-    <div>Otro componente</div>
-  )
+ function Otro(){
+    return(
+        <h1>Otro componente</h1>
+    )
 }
 
-export default Otro 
+export default Otro

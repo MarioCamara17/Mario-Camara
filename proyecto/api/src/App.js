@@ -1,19 +1,16 @@
 import "./App.css";
-import Otro from "./otro";
-import Formulariocss from './formulariocss'
-import Formularioboot from "./componentes/formularioboot";
-
+import { BrowserRouter as Router } from "react-router-dom";
+import Menu from "./componentes/inicio/Menu";
+import Rutas from "./routes/Rutas"
 
 function App() {
   return (
-    <div className="App">
-      <h1>Hola </h1>
-      <Otro />
-      <Formulariocss />
-      <div className="container-fluid p-3">
-      <Formularioboot/>
+    <Router>
+      <div className="container-fluid">
+        <Menu/>
+        <Rutas/>
       </div>
-    </div>
+    </Router>
   );
 }
 
